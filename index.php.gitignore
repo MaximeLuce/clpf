@@ -1,0 +1,259 @@
+<?php $path = "" ?>
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link href="<?= $path ?>assets/media/logo_clpf.png" rel="shortcut icon" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?= $path ?>assets/stylesheets/common.css">
+    <link rel="stylesheet" type="text/css" media="all" href="<?= $path ?>assets/stylesheets/home.css">
+    <link rel="stylesheet" type="text/css" media="all" href="<?= $path ?>assets/stylesheets/project.css">
+    <link rel="stylesheet" type="text/css" media="all" href="<?= $path ?>assets/stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" media="all" href="<?= $path ?>assets/stylesheets/equipe.css">
+    <link rel="stylesheet" type="text/css" media="all" href="<?= $path ?>assets/stylesheets/realisations.css">
+
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px)" href="<?= $path ?>assets/stylesheets/header.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" type="text/css" href="<?= $path ?>assets/stylesheets/header_mobile.css?t=<?= time() ?>">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" type="text/css" href="<?= $path ?>assets/stylesheets/mobile.css?t=<?= time() ?>">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!-- meta!-->
+        <title>Centrale Lyon Project Factory</title>
+        <meta name="title" content="Centrale Lyon Project Factory"/>
+        <meta name="keywords" content="max,culture,association">
+        <meta name="description" content="Association de Centrale Lyon : Des projets divers et variés pour découvrir, rencontrer et partager entre collégiens et Centraliens">
+        <meta name="language" content="FR;fr">
+        <meta name="date" content="2024">
+        <meta name="droits" content="Centrale Lyon Project Factory">
+        <meta name="copyright" content="Centrale Lyon Project Factory"/>
+        <meta name="author" content="Centrale Lyon Project Factory"/>
+        <!-- //meta !-->
+
+  </head>
+
+  <body>
+
+    <header id="index">
+      <div>
+        <ul>
+          <li><a href="#project">Le Projet</a></li>
+          <li><a href="#blog">2024/2025</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#equipe">L'équipe</a></li>
+          <!--<li><a href="#sponsors">Les Sponsors</a></li>!-->
+        </ul>
+      </div>
+    </header>
+
+    <header id="index_mobile">
+      <h1><a href="./index.php">Centrale Lyon Project Factory</a></h1>
+      <div class="menu-toggle">
+        <nav>
+        <ul>
+          <li><a href="#project">Le Projet</a></li>
+          <li><a href="#blog">2024/2025</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#equipe">L'équipe</a></li>
+
+          <!--<li><a href="#sponsors">Les Sponsors</a></li>!-->
+        </ul>
+      </nav>
+        <span class="fas fa-bars" aria-hidden="true"></span>
+      </div>
+    </header>
+
+    <!--link back!-->
+    <a href="#home" title="Retour en haut" id="back"><span class="fas fa-arrow-circle-up fa-3x"></span></a>
+    <!--end link back!-->
+<!--home -->
+<section id="home">
+<img src="<?= $path ?>assets/media/logo_clpf.png" alt="">
+<h1>Centrale Lyon Project Factory</h1>
+<h2>Association de <a href="https://www.ec-lyon.fr/" target="_blank">Centrale Lyon</a> </h2>
+<h3>Des projets divers et variés pour découvrir, rencontrer et partager entre collégiens et Centraliens</h3>
+<a href="#project" class="more">Découvrir</a>
+</section>
+<!--end home -->
+
+<!--infos -->
+<section id="project">
+<h3>L'association en quelques mots</h3>
+<div>
+<p>Il y a quatre ans, des élèves ingénieurs de Centrale Lyon ont fait le constat que le <span>riche vivier associatif</span> du campus n’était pas <span>mis à profit pour l’ensemble des habitants d’Écully</span>. L’idée initiale était donc de faire profiter les jeunes éculliens de la vie associative centralienne.
+</p>
+<p>L’enjeu aujourd’hui est de <span>perpétuer la démarche</span>, en organisant avec les collégiens un projet tout au long de l’année pour favoriser la mixité sociale. Nous souhaitons également <span>accroitre la communication</span> autour du projet pour montrer l’intérêt qu’ont les étudiants pour la commune d’Écully, en particulier après le départ de l’EM Lyon et pour motiver les associations centraliennes à s’investir davantage dans cette démarche.</p>
+</div>
+<a href="#blog" class="more">2024/2025</a>
+</section>
+<!--end infos -->
+
+<!--presentation -->
+<section id="blog">
+<h3>Les projets de cette année</h3>
+<div class="container">
+
+  <div class="subcontainer">
+    <div class="img">
+      <span class="fas fa-heart fa-3x"></span>
+    </div>
+    <div class="title">
+      Projet Collège Laurent Mourguet
+    </div>
+    <div class="presentation">
+      Construire avec les collégiens un projet tout au long de l'année pour les initier à la gestion de projet !
+    </div>
+  </div>
+
+  <div class="subcontainer">
+    <div class="img">
+      <span class="fas fa-wrench fa-3x"></span>
+    </div>
+    <div class="title">
+      Projet Site Web
+    </div>
+    <div class="presentation">
+      Développement du site web pour accroite la communication
+    </div>
+  </div>
+
+
+
+  <div class="subcontainer">
+    <div class="img">
+      <span class="fas fa-thumbs-up fa-3x"></span>
+    </div>
+    <div class="title">
+      Projet Ecully
+    </div>
+    <div class="presentation">
+      Faire profiter du vivier associatif centralien à l'ensemble de la commune d'Ecully
+    </div>
+  </div>
+</div>
+<a href="#realisations" class="more">Nos réalisations</a>
+</section>
+
+<section id="realisations">
+<h3>Nos réalisations en quelques dates</h3>
+<div class="box-timeline">
+  <div class="timeline">
+    <div class="timeline-content">
+      <div class="timeline-period">Octobre 2024</div>
+      <div class="timieline-title">Projet</div>
+      Premières réflexions autour du projet, étude des différents projets. <br> Première rencontre avec la Principale adjointe
+    </div>
+
+    <div class="timeline-content">
+      <div class="timeline-period">Décembre 2024</div>
+      <div class="timieline-title">Collège <br> Communication</div>
+      Développement du nouveau site de l'association et première rencontre avec les élèves.
+    </div>
+
+    <div class="timeline-content">
+      <div class="timeline-period">Février 2025</div>
+      <div class="timieline-title">Collège</div>
+      Deuxième intervention avec les collégiens.
+    </div>
+
+    <div class="timeline-content">
+      <div class="timeline-period">Avril 2025</div>
+      <div class="timieline-title">Collège</div>
+      Elaboration du projet avec les élèves.
+    </div>
+
+    <div class="timeline-content">
+      <div class="timeline-period">Juin 2025</div>
+      <div class="timieline-title">Aboutissement</div>
+      Présentation du projet mené par les élèves aux autres classes.
+    </div>
+  </div>
+</div>
+
+</section>
+<!--end presentation !-->
+<!--support !-->
+<section id="equipe">
+<h3>L'Equipe</h3>
+<!-- main -->
+<div class="template">
+
+  <button onclick="goBack()" id="Prev"><i class="fa-solid fa-backward"></i> Précédent</button>
+
+  <main>
+    <!-- images -->
+    <img src="<?= $path ?>assets/media/6.png" alt="not available" class="slides" />
+    <img src="<?= $path ?>assets/media/7.png" alt="not available" class="slides" />
+    <img src="<?= $path ?>assets/media/8.png" alt="not available" class="slides" />
+    <img src="<?= $path ?>assets/media/9.png" alt="not available" class="slides" />
+    <!-- /images -->
+  </main>
+  <!--/ main -->
+
+  <button onclick="goNext()" id="Next" class="more">Suivant <i class="fa-solid fa-forward"></i></button>
+  <!-- buttons -->
+  <!-- /button -->
+</div>
+
+</section>
+<!--end presentation !-->
+
+<!--footer !-->
+<footer>
+  <h4>Newsletter</h4>
+  <?php
+    try {
+        $connStr = 'mysql:host=localhost;dbname=clpf';
+        $arrExtraParam= array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4");
+        $pdo = new PDO($connStr, 'user', 'mdp!', $arrExtraParam);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $pdo->exec("set sort_buffer_size=256000000");
+    }
+    catch(PDOException $e) {
+        $msg = 'ERREUR PDO dans ' . $e->getFile() . ' L.' . $e->getLine() . ' : ' . $e->getMessage();
+        die($msg);
+    }
+?>
+  <form id="contact" method="post" class="contact-form" action="">
+    <input type="text" id="email" required placeholder="Votre adresse mail" class="contact-form-text" name="email" value="" />
+    <input type="submit" name="envoi" class="contact-form-btn" value="S'inscrire" /></div>
+  </form>
+  <?php
+
+  if (isset($_POST['envoi'])) {
+    $email=htmlspecialchars($_POST['email']);
+    $r_insertion = $pdo->prepare("INSERT INTO newsletter(mail,date_inscription) VALUES(?,NOW())");
+  			$r_insertion->execute(array($email));
+  }
+
+   ?>
+
+  <h4>Nous Suivre</h4>
+<div id="social_media">
+
+  <a href="mailto:" target="_blank" title="Cliquer ici pour envoyer un mail">
+    <div id="ds">
+    <span class="fa-solid fa-envelope fa-3x"></span>
+    </div>
+  </a>
+  <a href="https://www.instagram.com/projectfactory_ecl/" target="_blank" title="Cliquer ici pour voir la page Instagram">
+    <div id="discord">
+      <span class="fab fa-instagram fa-3x"></span>
+    </div>
+  </a>
+
+</div>
+<div id="text">
+  <p>Copyright &copy Centrale Lyon Project Factory</p>
+  <p>2024 - 2025</p>
+  <!--le gars il fait sa pub!-->
+</div>
+</footer>
+<!--end footer !-->
+<script defer src="https://use.fontawesome.com/releases/v6.6.0/js/all.js"></script>
+<script src="<?= $path ?>assets/javascript/common.js?t=<?= time() ?>"></script>
+<script src="<?= $path ?>assets/javascript/equipe.js?t=<?= time() ?>"></script>
+<script src="<?= $path ?>assets/javascript/index.js?t=<?= time() ?>"></script>
+  </body>
+</html>

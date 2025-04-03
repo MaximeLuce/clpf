@@ -1,0 +1,23 @@
+section#home{
+  background-image: url("../media/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#home img{
+  height: 300px;
+  color: white;
+}
+section#home h1{
+  color: white;
+  font-size: 5em;
+  text-align:center;
+}
+section#home h2{
+  color: #bdc3c7;
+  font-size: 3em;
+}
+section#home h3{
+  color: #bdc3c7;
+  font-size: 2em;
+}

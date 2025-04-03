@@ -1,0 +1,31 @@
+section#project{
+  background-image: url("../media/centrale_lyon_fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #38ada9;*/
+  /*background-color: rgb(15, 185, 177);*/
+
+}
+section#project h3{
+  color: white;
+  font-size: 3em;
+  margin-bottom: 3%;
+}
+section#project div{
+  background-color: rgba(255,255,255,0.9);
+  max-width: 60%;
+  padding: 15px;
+  border-radius: 7.5px;
+}
+section#project div p{
+  color: black;
+  max-width: 100%;
+  text-indent: 50px;
+  font-size: 1.35em;
+  margin-bottom: 20px;
+}
+section#project p span{
+  color: #0c2461;
+  font-weight: bold;
+  font-size: 1em;
+}

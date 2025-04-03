@@ -1,0 +1,53 @@
+
+section#equipe{
+  /*background-color: #38ada9;*/
+  background-image: url("../media/centrale_lyon_fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.template{
+  width: 80%;
+  margin-left: auto;
+  margin-right:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* main */
+main {
+  min-width: 600px;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+/* inages */
+.slides {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 1.9s ease;
+}
+/* button */
+.template button {
+  display: inline-block; /* ajuster la hauteur au contenu */
+  margin-top: 1%;
+  font-size: 1em;
+  line-height: 1; /* aligner la hauteur du texte */
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  background: #ffde59;
+  font-family: 'Lato', sans-serif;
+  padding:15px 15px 15px 15px;/* ajouter un peu d'espace intérieur */
+  border: none; /* supprimer les bordures par défaut */
+  border-radius: 4px; /* optionnel, coins arrondis */
+  transition: background 200ms;
+  box-sizing: border-box; /* inclure le padding et la bordure dans la hauteur totale */
+  height: calc(1em + 27px); /* hauteur calculée : taille du texte + padding vertical */
+}
+.template button:hover {
+background: rgb(178, 190, 195);
+}
